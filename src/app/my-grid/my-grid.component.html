@@ -1,0 +1,16 @@
+<ag-grid-angular
+#agGrid
+id="my-grid"
+style="width: 500px; height:500px;"
+class="ag-theme-material"
+[rowData]="rowData"
+[columnDefs]="columnDefs"
+[defaultColDef]="defaultColDef"
+[enableRtl]="true"
+[localeText]="localeText"
+[pagination]="true"
+[frameworkComponents]="frameworkComponents"
+[paginationAutoPageSize]="true"
+(gridReady)="onGridReady($event)"
+>
+</ag-grid-angular>
